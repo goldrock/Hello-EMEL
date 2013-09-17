@@ -12,33 +12,35 @@
 
 @end
 
+
 @implementation tw_com_goldrockViewController
 
-@synthesize display, counter;
+@synthesize textField;
 
--(id)init {
-	if (self = [super init])  {
-		self.counter = 1;
-	}
-	return self;
-}
+NSMutableString *_t;
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	_t = [[NSMutableString alloc] initWithString: @""];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
+- (void)didReceiveMemoryWarning {
+	[super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
--(IBAction) click1{
-	@autoreleasepool {
-		display.text = [NSString stringWithFormat:@"%d", self.counter++];
-	}
+
+- (IBAction)firstAction:(id)sender {
+	[_t appendString:@"x"];
+	self.textField.text = _t;
+	//NSLog(@"%@", [sender name]);
 }
 
+
+-(BOOL) textFieldShouldReturn:(UITextField *)textField{
+	
+	[self.textField resignFirstResponder];
+	return YES;
+}
 @end

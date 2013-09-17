@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tw_com_goldrockViewController : UIViewController
-
-@property(strong, nonatomic) IBOutlet UILabel *display;
-@property int counter;
-
--(IBAction) click1;
+@interface tw_com_goldrockViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+- (IBAction)firstAction:(id)sender;
 
 @end

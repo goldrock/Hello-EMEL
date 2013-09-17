@@ -10,23 +10,20 @@
 
 @implementation Hello_EMELTests
 
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
+- (void)setUp {
+	[super setUp];
+
+	// Set-up code here.
 }
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
+- (void)tearDown {
+	// Tear-down code here.
+
+	[super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in Hello-EMELTests");
+- (void)testExample {
+	STFail(@"Unit tests are not implemented yet in Hello-EMELTests");
 }
 
 @end

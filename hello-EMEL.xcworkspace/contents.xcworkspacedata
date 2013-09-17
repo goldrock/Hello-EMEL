@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Hello-EMEL/Hello-EMEL/tw_com_goldrock_SecondViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:Hello-EMEL/Hello-EMEL/tw_com_goldrock_SecondViewController.m">
+   </FileRef>
+   <FileRef
       location = "group:Hello-EMEL/Hello-EMEL.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1106D60017E8BE6800F61211 /* button_click.png in Resources */ = {isa = PBXBuildFile; fileRef = 1106D5FE17E8BE6800F61211 /* button_click.png */; };
+		1106D60117E8BE6800F61211 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1106D5FF17E8BE6800F61211 /* button.png */; };
+		1158DA4217E9003F00E4A1F4 /* tw_com_goldrock_SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1158DA4117E9003F00E4A1F4 /* tw_com_goldrock_SecondViewController.m */; };
 		117F5C1C17E0F7E80097306D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117F5C1B17E0F7E80097306D /* UIKit.framework */; };
 		117F5C1E17E0F7E80097306D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117F5C1D17E0F7E80097306D /* Foundation.framework */; };
 		117F5C2017E0F7E80097306D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 117F5C1F17E0F7E80097306D /* CoreGraphics.framework */; };
@@ -36,11 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1106D5FE17E8BE6800F61211 /* button_click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_click.png; path = "Hello-EMEL/imageFiles/button_click.png"; sourceTree = "<group>"; };
+		1106D5FF17E8BE6800F61211 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = "Hello-EMEL/imageFiles/button.png"; sourceTree = "<group>"; };
+		1158DA4017E9003F00E4A1F4 /* tw_com_goldrock_SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tw_com_goldrock_SecondViewController.h; sourceTree = "<group>"; };
+		1158DA4117E9003F00E4A1F4 /* tw_com_goldrock_SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tw_com_goldrock_SecondViewController.m; sourceTree = "<group>"; };
 		117F5C1817E0F7E80097306D /* Hello-EMEL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-EMEL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		117F5C1B17E0F7E80097306D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		117F5C1D17E0F7E80097306D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		117F5C1F17E0F7E80097306D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		117F5C2317E0F7E90097306D /* Hello-EMEL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello-EMEL-Info.plist"; sourceTree = "<group>"; };
 		117F5C2517E0F7E90097306D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		117F5C2717E0F7E90097306D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		117F5C2917E0F7E90097306D /* Hello-EMEL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello-EMEL-Prefix.pch"; sourceTree = "<group>"; };
@@ -61,6 +67,7 @@
 		117F5C5617E0F8530097306D /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/MainStoryboard.storyboard"; sourceTree = "<group>"; };
 		117F5C5717E0F8530097306D /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		117F5C5817E0F8530097306D /* zh-Hant-TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		B2D38797E0977AC3CDD2B644 /* Hello-EMEL-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; name = "Hello-EMEL-Info.plist"; path = "Hello-EMEL/Hello-EMEL-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +94,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1106D5FD17E8BE1800F61211 /* imageFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1106D5FE17E8BE6800F61211 /* button_click.png */,
+				1106D5FF17E8BE6800F61211 /* button.png */,
+			);
+			name = imageFiles;
+			sourceTree = "<group>";
+		};
 		117F5C0F17E0F7E80097306D = {
 			isa = PBXGroup;
 			children = (
 				117F5C2117E0F7E80097306D /* Hello-EMEL */,
+				1106D5FD17E8BE1800F61211 /* imageFiles */,
 				117F5C4517E0F7E90097306D /* Hello-EMELTests */,
 				117F5C1A17E0F7E80097306D /* Frameworks */,
 				117F5C1917E0F7E80097306D /* Products */,
@@ -113,6 +130,7 @@
 				117F5C1D17E0F7E80097306D /* Foundation.framework */,
 				117F5C1F17E0F7E80097306D /* CoreGraphics.framework */,
 				117F5C3F17E0F7E90097306D /* SenTestingKit.framework */,
+				B2D38797E0977AC3CDD2B644 /* Hello-EMEL-Info.plist */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +138,8 @@
 		117F5C2117E0F7E80097306D /* Hello-EMEL */ = {
 			isa = PBXGroup;
 			children = (
+				1158DA4017E9003F00E4A1F4 /* tw_com_goldrock_SecondViewController.h */,
+				1158DA4117E9003F00E4A1F4 /* tw_com_goldrock_SecondViewController.m */,
 				117F5C2A17E0F7E90097306D /* tw_com_goldrockAppDelegate.h */,
 				117F5C2B17E0F7E90097306D /* tw_com_goldrockAppDelegate.m */,
 				117F5C3317E0F7E90097306D /* MainStoryboard.storyboard */,
@@ -133,7 +153,6 @@
 		117F5C2217E0F7E80097306D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				117F5C2317E0F7E90097306D /* Hello-EMEL-Info.plist */,
 				117F5C2417E0F7E90097306D /* InfoPlist.strings */,
 				117F5C2717E0F7E90097306D /* main.m */,
 				117F5C2917E0F7E90097306D /* Hello-EMEL-Prefix.pch */,
@@ -241,6 +260,8 @@
 				117F5C3017E0F7E90097306D /* Default@2x.png in Resources */,
 				117F5C3217E0F7E90097306D /* Default-568h@2x.png in Resources */,
 				117F5C3517E0F7E90097306D /* MainStoryboard.storyboard in Resources */,
+				1106D60017E8BE6800F61211 /* button_click.png in Resources */,
+				1106D60117E8BE6800F61211 /* button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +299,7 @@
 				117F5C2817E0F7E90097306D /* main.m in Sources */,
 				117F5C2C17E0F7E90097306D /* tw_com_goldrockAppDelegate.m in Sources */,
 				117F5C3817E0F7E90097306D /* tw_com_goldrockViewController.m in Sources */,
+				1158DA4217E9003F00E4A1F4 /* tw_com_goldrock_SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +417,7 @@
 				GCC_PREFIX_HEADER = "Hello-EMEL/Hello-EMEL-Prefix.pch";
 				INFOPLIST_FILE = "Hello-EMEL/Hello-EMEL-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,7 +429,7 @@
 				GCC_PREFIX_HEADER = "Hello-EMEL/Hello-EMEL-Prefix.pch";
 				INFOPLIST_FILE = "Hello-EMEL/Hello-EMEL-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,6 +487,7 @@
 				117F5C5217E0F7E90097306D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117F5C5317E0F7E90097306D /* Build configuration list for PBXNativeTarget "Hello-EMELTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +496,7 @@
 				117F5C5517E0F7E90097306D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
