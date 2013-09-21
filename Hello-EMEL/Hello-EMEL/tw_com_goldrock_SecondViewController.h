@@ -10,5 +10,5 @@
 
 @interface tw_com_goldrock_SecondViewController : UIViewController
 - (IBAction)done:(id)sender;
-
+- (void) showText:(NSString *) text;
 @end

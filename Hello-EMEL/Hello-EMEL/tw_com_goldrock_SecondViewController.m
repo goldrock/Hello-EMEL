@@ -38,4 +38,8 @@
 - (IBAction)done:(id)sender {
 	[self dismissViewControllerAnimated:YES completion:nil];
 }
+
+- (void) showText:(NSString *) text{
+	NSLog(@"%@", text);
+}
 @end
